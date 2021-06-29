@@ -13,7 +13,9 @@ I hope you enjoy it
 
 1) **Adds a new JDK to you list:**
 *jenv add `<name> <path>`*
-Example: `jenv add jdk15 D:\Programme\Java\jdk-15.0.1`
+Example: `jenv add jdk15 "D:\Programme\Java\jdk-15.0.1"`
+
+NOTE: a jenv.config file will be added which includes the jdk file paths you have added
  
 
  
@@ -40,7 +42,7 @@ Example: `jenv add jdk15 D:\Programme\Java\jdk-15.0.1`
  
  5. Now you can add your different java versions and swap between them.
  
- 6. No need to fear that your path gets deletet. No setx was used
+ 6. No need to fear that your path gets deleted. No setx was used
  
  7. I hope I could help you. Else open an issue
 
